@@ -21,11 +21,12 @@ Related Docs:
 - docs/shared/domain/base-entity.md
 """
 
-from pydantic import BaseModel, Field, ConfigDict, field_validator
-from uuid import uuid4
-from datetime import datetime, UTC
-from typing import Any
+from datetime import UTC, datetime
 from enum import IntEnum
+from typing import Any
+from uuid import uuid4
+
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
 class EntityState(IntEnum):
@@ -382,7 +383,13 @@ class Entity(BaseModel):
         return self.state == EntityState.INACTIVE
 
     def __str__(self) -> str:
-        return f"{self.__class__.__name__}(id={self.id}, code={self.code}, name={self.name})"
+        return (
+            f"{self.__class__.__name__}(id={self.id}, "
+            f"code={self.code}, name={self.name})"
+        )
 
     def __repr__(self) -> str:
-        return f"{self.__class__.__name__}(id='{self.id}', code='{self.code}', name='{self.name}', type='{self.type}')"
+        return (
+            f"{self.__class__.__name__}(id='{self.id}', "
+            f"code='{self.code}', name='{self.name}', type='{self.type}')"
+        )

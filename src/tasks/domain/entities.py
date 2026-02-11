@@ -20,8 +20,10 @@ Related Docs:
 - docs/tasks/domain/task-entity.md
 """
 
-from pydantic import Field, ConfigDict
 from uuid import uuid4
+
+from pydantic import ConfigDict, Field
+
 from src.shared.domain.base_entity import Entity
 
 
