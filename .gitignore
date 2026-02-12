@@ -22,7 +22,7 @@ logs/
 
 # Agent outputs (runtime generated, not committed)
 # Includes: context_bundles, hook_logs, scout_files, security_logs, workflow outputs
-agents/
+# agents/
 
 # Git worktrees
 trees/
