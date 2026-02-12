@@ -92,7 +92,7 @@ canonical_idk.yml
 config.yml
 playwright-mcp-config.json
 scripts/
-specs/
+# specs/
 # src/ - temporarily allowing for PR creation
 
 
