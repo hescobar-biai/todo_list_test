@@ -83,16 +83,16 @@ orchestrator_3_stream/
 orchestrator_db/
 
 # Project local files
-.claude/
-.mcp.json
-adws/
-ai_docs/
-app_docs/
-canonical_idk.yml
-config.yml
-playwright-mcp-config.json
-scripts/
-specs/
+# # .claude/
+# .mcp.json
+# adws/
+# # ai_docs/
+# app_docs/
+# canonical_idk.yml
+# config.yml
+# playwright-mcp-config.json
+# scripts/
+# specs/
 # src/ - temporarily allowing for PR creation
 
 
@@ -120,7 +120,7 @@ logs/
 
 # Agent outputs (runtime generated, not committed)
 # Includes: context_bundles, hook_logs, scout_files, security_logs, workflow outputs
-agents/
+# agents/
 
 # Git worktrees
 trees/
@@ -347,14 +347,14 @@ apps/
 orchestrator_3_stream/
 orchestrator_db/
 # Project local files
-.claude/
-.mcp.json
-adws/
-ai_docs/
-app_docs/
-canonical_idk.yml
-config.yml
-playwright-mcp-config.json
-scripts/
-specs/
+# .claude/
+# .mcp.json
+# adws/
+# ai_docs/
+# app_docs/
+# canonical_idk.yml
+# config.yml
+# playwright-mcp-config.json
+# scripts/
+# specs/
 # src/ - temporarily allowing for PR creation
